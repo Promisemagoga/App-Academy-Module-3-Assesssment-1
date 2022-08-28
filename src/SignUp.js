@@ -40,7 +40,7 @@ const SignUp = ({ navigation }) => {
                 style={styles.Textbutton}
                 onPress={() => navigation.navigate('Login')}
             >
-                <Text style={{ color: 'purple' }}>You already have an account?Login</Text>
+                <Text style={{ color: '#f50057' }}>You already have an account?Login</Text>
             </TouchableOpacity>
         </SafeAreaView>
     );
@@ -59,7 +59,7 @@ const styles = StyleSheet.create({
     },
     button: {
         alignItems: "center",
-        backgroundColor: "#6200ea",
+        backgroundColor: "#f50057",
         padding: 10,
         margin: 10,
         boarderRadius: 10,

@@ -32,7 +32,7 @@ const Login = ({ navigation }) => {
                 style={styles.Textbutton}
                 onPress={() => navigation.navigate('SignUp')}
             >
-                <Text style={{ color: 'purple' }}>You don't have an account?SignUp</Text>
+                <Text style={{ color: '#f50057' }}>You don't have an account?SignUp</Text>
             </TouchableOpacity>
         </SafeAreaView>
     );
@@ -51,7 +51,7 @@ const styles = StyleSheet.create({
     },
     button: {
         alignItems: "center",
-        backgroundColor: "#6200ea",
+        backgroundColor: "#f50057",
         padding: 10,
         margin: 10,
         boarderRadius: 10,
