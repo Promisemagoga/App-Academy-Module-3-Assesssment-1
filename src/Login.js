@@ -8,6 +8,8 @@ const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
 
 const Login = ({ navigation }) => {
+        const [Email, setEmail] = useState('')
+    const [Password, setPassword] = useState('')
     return (
         <SafeAreaView>
             <Text style={styles.Text}>Welcome back</Text>
@@ -15,10 +17,16 @@ const Login = ({ navigation }) => {
                 <TextInput
                     style={styles.input}
                     placeholder="Email"
+                    value={Email}
+                    Email='Email'
+                    onChange={(Email) =>{setEmail(Email)}}
                 />
                 <TextInput
                     style={styles.input}
                     placeholder="Password"
+                    value={Password}
+                    Password='Password'
+                    onChange={(Password) =>{setPassword(Password)}}
                 />
             </View>
 

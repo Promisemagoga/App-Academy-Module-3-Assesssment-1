@@ -19,7 +19,7 @@ renderItem={({item}) =>{
       <Text style={styles.Name}>
         {item.Name}
       </Text>
-      <Text styles={styles.Category}>
+      <Text styles={styles.Category}> 
         {item.Category}
       </Text>
       <Text>
