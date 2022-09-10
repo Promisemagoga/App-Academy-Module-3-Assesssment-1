@@ -9,13 +9,7 @@ import Details from './src/Details';
 
 
 const Stack = createNativeStackNavigator();
-import * as firebase from 'firebase'
-import firebaseConfig from './src/FirebaseConfig';
-export default function App() {
-  if(!firebase.apps.length){
-    console.log("Firebase is connected")
-    firebase.initializeApp(firebaseConfig)
-  }
+
   return (
     <NavigationContainer>
       <Stack.Navigator>
