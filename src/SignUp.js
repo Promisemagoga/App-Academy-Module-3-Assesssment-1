@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import { View, Dimensions, Text, StyleSheet } from 'react-native';
 import { SafeAreaView, TextInput } from 'react-native';
 import { TouchableOpacity } from 'react-native';
-import { registration } from './Backend/Authentication';
+
 
 const windowWidth = Dimensions.get('window').width;
 const windowHeight = Dimensions.get('window').height;
